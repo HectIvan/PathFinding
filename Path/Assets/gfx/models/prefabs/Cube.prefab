@@ -111,7 +111,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 8257857293885044377}
+  m_MR: {fileID: 1604638146457623181}
   m_posX: 0
   m_posZ: 0
   m_impassable: 0
   m_pathMember: 0
+  m_impassableMat: {fileID: 2100000, guid: ecdaa401061bbb644922d89d656925e8, type: 2}
+  m_neutralMat: {fileID: 2100000, guid: 05746a06e2692154daf86a42bf2c2c1e, type: 2}
+  m_pathMat: {fileID: 2100000, guid: 31665126741e2af498eee35ac140a090, type: 2}
+  m_left: {x: 0, y: 0}
+  m_right: {x: 0, y: 0}
+  m_up: {x: 0, y: 0}
+  m_down: {x: 0, y: 0}

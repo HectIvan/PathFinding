@@ -235,17 +235,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_gridBox: {fileID: 8257857293885044377, guid: 15f61f38302ef984f96cb76eb43888d4, type: 3}
-  m_X: 20
-  m_Y: 20
-  m_objectiveX: 1
-  m_objectiveZ: 4
-  m_originX: 14
-  m_originZ: 9
+  m_X: 50
+  m_Z: 50
+  m_objectiveX: 0
+  m_objectiveZ: 0
+  m_originX: 0
+  m_originZ: 0
+  m_originSolid: {x: 0, y: 0}
+  m_manhattanDistance: 0
+  m_originBox: {fileID: 0}
+  m_newOriginBox: {fileID: 0}
   m_originMat: {fileID: 2100000, guid: 4e3c235f96806944cb8348b0cb26aad4, type: 2}
   m_objectiveMat: {fileID: 2100000, guid: 7726975e71d02be43996c75f412f55a7, type: 2}
   m_impassableMat: {fileID: 2100000, guid: ecdaa401061bbb644922d89d656925e8, type: 2}
   m_routeMat: {fileID: 2100000, guid: 31665126741e2af498eee35ac140a090, type: 2}
   m_neutralMat: {fileID: 2100000, guid: 05746a06e2692154daf86a42bf2c2c1e, type: 2}
+  m_f: 0
+  m_g: 1
+  m_h: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,8 +305,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -322,14 +329,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 23, y: 44, z: 24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &8981698584791529423
 PrefabInstance:
   m_ObjectHideFlags: 0
